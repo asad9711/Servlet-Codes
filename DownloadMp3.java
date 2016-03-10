@@ -26,7 +26,8 @@ public class DownloadMp3 extends HttpServlet {
 		BufferedInputStream bis=null;
 		sos=response.getOutputStream();
 //		String s1=getServletContext().getRealPath("/files/knaan.mp3");
-		String s1="G:\\keplerjava\\Learnserv\\files\\knaan.mp3";
+//		String s1="G:\\keplerjava\\Learnserv\\files\\knaan.mp3";
+		String s1="C:\\Users\\Asad\\Desktop\\New folder\\fitoor.mp3";
 		File doc=new File(s1);
 		response.setContentType("audio/mpeg");
 		response.addHeader("Content Disposition","attachment;filename="+fileName );
